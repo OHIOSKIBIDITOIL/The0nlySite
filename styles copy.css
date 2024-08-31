@@ -1,0 +1,98 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+h6 {
+    text-align: center;
+    font-family: "Source Sans Pro", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.search {
+      display: flex;
+      user-select: none;
+      margin-top: 2.5vw;
+      margin-left: 1.2vw;
+      align-items: center;
+  }
+
+  .search input {
+      background-color: #222222;
+      border: none;
+      border-radius: 1vw 0 0 1vw;
+      color: #fff;
+      font-size: 1.5vw;
+      font-weight: 600;
+      padding: 0.8vw 1.5vw;
+      font-family: 'Montserrat', sans-serif;
+      z-index: 1;
+      outline: none;
+      align-items: center;
+  }
+
+  .search input::placeholder {
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.5vw;
+      align-items: center;
+  }
+
+  .search button {
+      background-color: #fff;
+      border: none;
+      border-radius: 0 1vw 1vw 0;
+      color:#222222;
+      font-size: 1.5vw;
+      font-weight: 600;
+      padding: 0.8vw 1vw;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      z-index: 1;
+      transition: .3s all ease;
+      align-items: center;
+  }
+
+    #games {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: .6vw;
+      padding-bottom: 5vw;
+
+  }
+
+  #games img {    height: 15.6vw;
+      width: 15.6vw;
+      border-radius: 1vw;
+      margin: .5vw;
+      cursor: pointer;
+      user-select: none;
+      transition: transform .2s;
+  }
+
+  #games img:hover {
+      transform: scale(1.01);
+  }
+
+  a{
+
+    
+  }
